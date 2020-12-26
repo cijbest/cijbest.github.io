@@ -77,6 +77,8 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  width: 100%;
+  background-color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10132,4 +10134,40 @@ section.resume-section .resume-section-content {
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
+}
+.bg-gradation{
+	/*background: linear-gradient(to right, #139dba , #397fb3) !important;*/
+	background: linear-gradient(to bottom, #7bd5f5 , #7b7ff6) !important;
+}
+.text-indigo{
+	color: #1f2f98 !important;
+}
+.list-inline-item{
+	display: inline-block;
+}
+.social-list a{
+	transition: none;
+	width: 32px;
+    height: 32px;
+    padding-top: 5px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    transition: all 0.4s ease-in-out;
+    background-color: #fff;
+    color: #1f2f98;
+    text-decoration: none;
+}
+.social-list a:hover{
+	background-color: #d7edf2;
+}
+.list-inline{
+	padding-left: 0;
+    list-style: none;
+}
+.bio{
+	color: #fff;
+}
+.bio a {
+	color: #1f2f98;
 }
