@@ -10138,9 +10138,14 @@ section.resume-section .resume-section-content {
 .bg-gradation{
 	/*background: linear-gradient(to right, #139dba , #397fb3) !important;*/
 	background: linear-gradient(to bottom, #7bd5f5 , #7b7ff6) !important;
+	/*background: linear-gradient(to bottom, #ffdd94 , #d0e6a5) !important;*/
+	/*background: linear-gradient(to bottom, #86e3ce , #7bd5f5) !important;*/
 }
 .text-indigo{
 	color: #1f2f98 !important;
+}
+.text-pink{
+	color: #8080ff!important;
 }
 .list-inline-item{
 	display: inline-block;
@@ -10157,9 +10162,11 @@ section.resume-section .resume-section-content {
     background-color: #fff;
     color: #1f2f98;
     text-decoration: none;
+    cursor: pointer;
 }
 .social-list a:hover{
-	background-color: #d7edf2;
+	background-color: #6677cc;
+	color: #fff;
 }
 .list-inline{
 	padding-left: 0;
@@ -10170,4 +10177,8 @@ section.resume-section .resume-section-content {
 }
 .bio a {
 	color: #1f2f98;
+	text-shadow: 2px 2px 7px #1f2f98;
+}
+.fa-seedling{
+	color: #fbc2eb;
 }
