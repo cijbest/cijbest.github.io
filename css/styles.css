@@ -10144,6 +10144,7 @@ section.resume-section .resume-section-content {
 }
 .text-indigo{
 	color: #1f2f98 !important;
+	font-weight: bold;
 }
 .text-yellow{
 	color: #ffff80! important;
@@ -10202,10 +10203,23 @@ section.resume-section .resume-section-content {
 .profile-con{
 	text-transform: none;
 }
-.fa-i-cursor{
-	color: #0a1765;
+.profile-con svg{
+	color: #ffa605;
 	margin-right: 10px;
+	filter:drop-shadow(2px 2px 2px #e7cb29);
 }
 .float-left{
 	float: left;
+}
+.copy_alert{
+	position: absolute;
+	display: none;
+	color: white;
+	border-radius: 20px 20px 20px 20px / 20px 20px 20px 20px;
+	padding-left: 3%;
+	padding-right: 3%;
+	background-color: rgba( 255, 255, 255, 0.3 ); 
+	
+	top: 47.7%;
+	left: 55.5%;
 }
