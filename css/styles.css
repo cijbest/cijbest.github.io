@@ -89,6 +89,9 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+
+  font-weight: 700 !important;
+  color: rgba(0, 155, 230, 0.8) ;
 }
 
 abbr[title],
@@ -10142,12 +10145,18 @@ section.resume-section .resume-section-content {
 	/*background: linear-gradient(to bottom, #86e3ce , #7bd5f5) !important;*/
 	background: linear-gradient(to bottom, #0252a9 , #057ac1) !important;
 }
-.text-indigo{
-	color: #1f2f98 !important;
+.text-blue{
+	color: rgba(0, 128, 255, 0.8) !important;
 	font-weight: bold;
 }
 .text-yellow{
 	color: #ffff80! important;
+}
+.text-purple{
+	color: #f02fc2; /*7117ea*/
+}
+.text-purple2{
+	color: #e410af; /*7117ea*/
 }
 .pf-text{
 	background-color: #6677cc;
@@ -10222,4 +10231,16 @@ section.resume-section .resume-section-content {
 	
 	top: 47.7%;
 	left: 55.5%;
+}
+.title_logo{
+	width: 5%;
+	height: 5%;
+	padding-bottom: 1.2%;
+}
+.blog_img{
+	width: 70%;
+}
+.certificate_img{
+	width: 3%;
+	padding-bottom: 0.5%;
 }
