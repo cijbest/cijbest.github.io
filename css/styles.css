@@ -91,7 +91,7 @@ p {
   margin-bottom: 1rem;
 
   font-weight: 700 !important;
-  color: rgb(0, 169, 251) ;
+  color: #0677f4; /*rgb(0, 169, 251) ;*/
 }
 
 abbr[title],
@@ -10146,7 +10146,7 @@ section.resume-section .resume-section-content {
 	background: linear-gradient(to bottom, #0252a9 , #057ac1) !important;
 }
 .text-blue{
-	color: rgba(0, 128, 255, 0.8) !important;
+	color: #0677f4 !important;
 	font-weight: bold;
 }
 .text-yellow{
@@ -10157,6 +10157,9 @@ section.resume-section .resume-section-content {
 }
 .text-purple2{
 	color: #e410af; /*7117ea*/
+}
+.text-gray {
+	color: #6d6566;
 }
 .pf-text{
 	background-color: #6677cc;
@@ -10256,7 +10259,7 @@ section.resume-section .resume-section-content {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(6, 119, 190, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
