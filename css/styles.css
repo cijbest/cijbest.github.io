@@ -10259,7 +10259,7 @@ section.resume-section .resume-section-content {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(6, 119, 190, 0.9);
+  background-color: rgba(255, 231, 189, 0.9);/*rgba(92, 108, 185, 0.8);*//* rgba(6, 119, 190, 0.9);*/
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -10376,6 +10376,9 @@ section.resume-section .resume-section-content {
   margin-bottom: 50px;
   }
 }
-.pfo-text{
-	color: #80ff00;
+.portfolio-modal p{
+	color: #e410af;
+}
+.pfo-img {
+	width: 5%;
 }
